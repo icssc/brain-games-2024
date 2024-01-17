@@ -3,7 +3,7 @@ import { Calendar, Navigation } from "lucide-react";
 
 const Hero = () => {
     return (
-        <div className="flex-center flex-col gap-y-16 min-h-[calc(100vh-6rem)] pb-16">
+        <div className="flex-center flex-col gap-y-16 min-h-[calc(100vh-6rem)]">
             <div className="flex flex-col gap-y-8">
                 <div className="flex justify-center items-center flex-col gap-y-2">
                     <h1 className="text-8xl font-bold">Brain Games 2024</h1>
