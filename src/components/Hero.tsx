@@ -15,11 +15,11 @@ const Hero = () => {
                 <div className="flex-center gap-x-8">
                     <div className="flex-center flex-row gap-x-2 text-2xl font-bold">
                         <Calendar />
-                        <p>March 14</p>
+                        <p>February 10</p>
                     </div>
                     <div className="flex-center flex-row gap-x-2 text-2xl font-bold">
                         <Navigation />
-                        <p>DBH 1234</p>
+                        <p>Student Center - Newport Beach Room</p>
                     </div>
                 </div>
             </div>
