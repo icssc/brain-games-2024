@@ -12,23 +12,19 @@ type Faq_Data = {
 
 const FAQ_DATA: Faq_Data[] = [
     {
-        title: "Where is WebJam being held?",
+        title: "When and where is Brain Games?",
         content:
-            "WebJam is being held in-person at Donald Bren Hall, consisting of events/workshops and ceremonies. Each day takes place in a different room, be sure to look at the schedule!",
+            "Brain Games will be from 11am-4:30pm on Saturday, February 10, 2024, in the Student Center (Emerald Bay).",
     },
     {
-        title: "How many people can be on a team?",
-        content: "Up to 4 people can be part of a single team.",
+        title: "How big are the teams? What if I don't have a team?",
+        content:
+            "Brain Games events are designed for teams of 2-4 people (we recommend 4), but don't worry! If you don't have a team yet, just mark that when you sign up and we'll match you with one :).",
     },
     {
-        title: "Do I have to have a team to participate?",
+        title: "Do I have to sign up ahead of time?",
         content:
-            "No. We will have team matching during the event itself, or you can come with a team or solo. Whatever works for you!",
-    },
-    {
-        title: "What if I lack web dev experience?",
-        content:
-            "Many ICS clubs will be hosting workshops throughout the week to assist participants get started with web development.",
+            "Due to capacity limitations, all teams must register ahead of time. Our capacity is limited to 30 teams, and teams will be given spots on a first-come, first-serve basis. Any teams that register after that will be put on a waitlist and we’ll contact your team by email if a spot opens up.",
     },
 ];
 
