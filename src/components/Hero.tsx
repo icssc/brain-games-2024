@@ -4,7 +4,7 @@ import { Calendar, Navigation } from "lucide-react";
 
 const Hero = () => {
     return (
-        <div className="flex-center flex-col gap-y-12 min-h-[calc(100vh-6rem)]">
+        <div className="flex-center flex-col gap-y-12 min-h-[calc(100vh)]">
             <div className="flex flex-col gap-y-8">
                 <div className="flex justify-center items-center flex-col gap-y-4">
                     <h1 className="text-7xl md:text-8xl font-bold text-center">
