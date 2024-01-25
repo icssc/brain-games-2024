@@ -4,7 +4,7 @@ import { Calendar, Navigation } from "lucide-react";
 
 const Hero = () => {
     return (
-        <div className="flex-center flex-col gap-y-12 min-h-[calc(100vh)]">
+        <div className="flex-center flex-col gap-y-6 md:gap-y-12 min-h-[calc(100vh)]">
             <div className="flex flex-col gap-y-8">
                 <div className="flex justify-center items-center flex-col gap-y-4">
                     <h1 className="text-7xl md:text-8xl font-bold text-center">
@@ -36,7 +36,7 @@ const Hero = () => {
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
-                    <Button className="text-3xl p-8 rounded-xl">
+                    <Button className="text-xl md:text-3xl p-6 md:p-8 rounded-xl">
                         Sign up!
                     </Button>
                 </Link>
