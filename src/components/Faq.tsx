@@ -38,7 +38,8 @@ const FAQ_DATA: Faq_Data[] = [
     },
     {
         title: "How much does it cost? Are there prizes?",
-        content: "Brain games is completely free to attend, with food and snacks provided at no cost to any participants! We'll also prizes for each member of the first, second, and third place teams.",
+        content:
+            "Brain games is completely free to attend, with food and snacks provided at no cost to any participants! We'll also prizes for each member of the first, second, and third place teams.",
     },
     {
         title: "What should teams bring?",
@@ -60,7 +61,7 @@ const Faq = () => {
                 <Accordion
                     type="single"
                     collapsible
-                    className="w-[75%] mx-auto"
+                    className="md:w-[75%] mx-auto"
                 >
                     {FAQ_DATA.map((data, index) => (
                         <AccordionItem
@@ -68,7 +69,9 @@ const Faq = () => {
                             key={index}
                             className="text-xl"
                         >
-                            <AccordionTrigger className="text-left">{data.title}</AccordionTrigger>
+                            <AccordionTrigger className="text-left">
+                                {data.title}
+                            </AccordionTrigger>
                             <AccordionContent className="text-lg">
                                 {data.content}
                             </AccordionContent>
