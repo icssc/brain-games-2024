@@ -20,7 +20,25 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>
+            <body
+                className={inter.className}
+                style={{
+                    backgroundImage: 'url("background.svg")',
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat", 
+                }}
+            >
+                <div className="lightnings">
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                    <img className="lightning" src="lightning.svg" />
+                </div>
                 <Header />
                 {children}
                 <Footer />

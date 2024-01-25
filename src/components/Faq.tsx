@@ -68,7 +68,7 @@ const Faq = () => {
                             key={index}
                             className="text-xl"
                         >
-                            <AccordionTrigger>{data.title}</AccordionTrigger>
+                            <AccordionTrigger className="text-left">{data.title}</AccordionTrigger>
                             <AccordionContent className="text-lg">
                                 {data.content}
                             </AccordionContent>
