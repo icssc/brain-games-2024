@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -31,15 +32,14 @@ export default function RootLayout({
                 }}
             >
                 <div className="lightnings">
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
-                    <img className="lightning" src="lightning.svg" />
+                    {[...Array(9).keys()].map((index) => (
+                        <img
+                            className="lightning"
+                            src="lightning.svg"
+                            alt="lightning bolt"
+                            key={index}
+                        />
+                    ))}
                 </div>
                 <Header />
                 {children}
