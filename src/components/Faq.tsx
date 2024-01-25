@@ -14,12 +14,12 @@ const FAQ_DATA: Faq_Data[] = [
     {
         title: "When and where is Brain Games?",
         content:
-            "Brain Games will be from 11am-4:30pm on Saturday, February 10, 2024, in the Student Center (Emerald Bay).",
+            "Brain Games will be from 11am-4:30pm on Saturday, February 10, 2024, in the Student Center (Emerald Bay room).",
     },
     {
         title: "Who can participate?",
         content:
-            "All UCI students! Brain Games is open to individuals of all skill levels, including beginners. Brain Games is designed to be inclusive, with games that are more about collaboration and enjoyment.",
+            "All UCI students! Brain Games is open to individuals of all skill levels, including beginners. Brain Games is designed to be inclusive, with games that will be fun for all skill levels and backgrounds (for blindfolded coding, some experience with python by at least one of your team members will be helpful).",
     },
     {
         title: "How big are the teams? What if I don't have a team?",
@@ -37,13 +37,13 @@ const FAQ_DATA: Faq_Data[] = [
             "Yes! There will be a lunch break in the middle of the event. We will have pizza, sprite, snacks, and Capri Suns.",
     },
     {
-        title: "Are there prizes?",
-        content: "Yes! We have prizes for first, second, and third place.",
+        title: "How much does it cost? Are there prizes?",
+        content: "Brain games is completely free to attend, with food and snacks provided at no cost to any participants! We'll also prizes for each member of the first, second, and third place teams.",
     },
     {
-        title: "What should participants bring?",
+        title: "What should teams bring?",
         content:
-            "Please make sure that your team brings at least 1 charged laptop (which will be used for the blindfolded pair programming event), as well as some writing materials to take notes with!",
+            "Please make sure that your team brings at least 1 charged laptop for blindfolded coding (we recommend each team bring a second backup laptop just in case), as well as some writing materials to take notes with!",
     },
     {
         title: "What if I have other questions?",

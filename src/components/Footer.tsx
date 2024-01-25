@@ -30,14 +30,14 @@ const MEDIA_LINKS = [
     },
     {
         id: 5,
-        link: "mailto: icssc@uci.edu",
+        link: "mailto:icssc@uci.edu",
         icon: <FaEnvelope />,
     },
 ];
 
 const Footer = () => {
     return (
-        <footer className="flex-center px-2 py-2 mt-16 flex-col gap-y-4">
+        <footer className="flex-center px-2 py-2 mt-16 mb-8 flex-col gap-y-4">
             <div className="flex justify-center gap-5 text-3xl sm:gap-12 sm:text-4xl">
                 {MEDIA_LINKS.map((link) => (
                     <Link
