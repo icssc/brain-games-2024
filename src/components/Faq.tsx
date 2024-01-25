@@ -55,7 +55,7 @@ const FAQ_DATA: Faq_Data[] = [
 const Faq = () => {
     return (
         <>
-            <div className="flex flex-col w-[75%] gap-y-4">
+            <div className="flex flex-col w-[75%] gap-y-4" id="faq">
                 <h2 className="text-6xl font-bold text-center">FAQ</h2>
 
                 <Accordion

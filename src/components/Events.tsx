@@ -2,7 +2,7 @@ import React from "react";
 
 const Events = () => {
     return (
-        <div className="flex-center flex-col gap-y-16 mb-32">
+        <div className="flex-center flex-col gap-y-16 mb-32 pt-6" id="events">
             <h2 className="text-6xl font-bold text-center">Events</h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 my-auto gap-y-8 md:gap-y-16 lg:gap-x-16 lg:gap-y-24">
