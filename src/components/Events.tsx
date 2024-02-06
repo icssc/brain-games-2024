@@ -7,7 +7,8 @@ const Events = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 my-auto gap-y-8 md:gap-y-16 lg:gap-x-16 lg:gap-y-24">
                 <div className="gap-y-2 flex flex-col text-left">
-                    <div className="w-[75%] mx-auto lg:ml-auto">
+                    <div className="w-[75%] mx-auto lg:ml-auto flex flex-col">
+                        <img width={275} src="blind-pair-programming-anteaters.svg" className="relative self-center mb-5"/>
                         <h2 className="text-2xl md:text-3xl font-semibold">
                             Blindfolded Coding
                         </h2>
@@ -23,7 +24,8 @@ const Events = () => {
                 </div>
 
                 <div className="gap-y-2 flex flex-col text-left">
-                    <div className="w-[75%] mx-auto">
+                    <div className="w-[75%] mx-auto flex flex-col">
+                        <img width={275} src="Estimathon_1Lights.svg" className="relative self-center mb-5"/>
                         <h2 className="text-2xl md:text-3xl font-semibold">
                             Estimathon
                         </h2>
@@ -40,7 +42,8 @@ const Events = () => {
                 </div>
 
                 <div className="gap-y-2 flex flex-col text-left">
-                    <div className="w-[75%] mx-auto lg:ml-auto">
+                    <div className="w-[75%] mx-auto flex flex-col">
+                        <img width={240} src="bridge.png" className="relative self-center mb-5"/>
                         <h2 className="text-2xl md:text-3xl font-semibold">
                             Bridge Building
                         </h2>
@@ -55,6 +58,7 @@ const Events = () => {
 
                 <div className="gap-y-2 flex flex-col text-left">
                     <div className="w-[75%] mx-auto">
+                    <img width={275} src="CodeBlocks.svg" className="relative self-center mb-5"/>
                         <h2 className="text-2xl md:text-3xl font-semibold">
                             Code Blocks
                         </h2>
